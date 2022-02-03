@@ -1,6 +1,6 @@
 #438. Find All Anagrams in a String
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
+    def findAnagrams(self, s: str, p: str):
         hashp = [0]*(26)
         hashs = [0]*(26)
         if len(s)<len(p):
