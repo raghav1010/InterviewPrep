@@ -4,7 +4,7 @@ class Solution:
         # since heapq is a min-heap
         # we use negative of the numbers to mimic a max-heap
         evens = []
-        minimum = inf
+        minimum = float("-inf")
         for num in nums:
             if num % 2 == 0:
                 evens.append(-num)
